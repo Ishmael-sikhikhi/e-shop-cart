@@ -13,7 +13,7 @@ export const products: Product[] = [
     id: 2,
     name: "Deep Wave Wig Bundle",
     price: 2340.0,
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80",
     category: "Deep Wave",
     description: "Rich, voluminous deep wave wig bundles for full-bodied curls.",
   },
