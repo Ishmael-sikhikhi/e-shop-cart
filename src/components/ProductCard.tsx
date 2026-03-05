@@ -39,7 +39,7 @@ const ProductCard = ({ product, index = 0 }: ProductCardProps) => {
       <div className="p-4 space-y-1">
         <p className="font-body text-xs font-medium uppercase tracking-wider text-muted-foreground">{product.category}</p>
         <h3 className="font-display text-base font-semibold text-foreground">{product.name}</h3>
-        <p className="font-display text-lg font-bold text-primary">${product.price.toFixed(2)}</p>
+        <p className="font-display text-lg font-bold text-primary">R {product.price.toFixed(2)}</p>
       </div>
     </div>
   );

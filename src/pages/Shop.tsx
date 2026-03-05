@@ -15,7 +15,7 @@ const Shop = () => {
       <div className="container mx-auto px-4">
         <div className="mb-8">
           <h1 className="font-display text-4xl font-bold text-foreground">Shop</h1>
-          <p className="mt-2 font-body text-muted-foreground">Browse our complete collection</p>
+          <p className="mt-2 font-body text-muted-foreground">Browse our wave hair collection</p>
         </div>
 
         {/* Filters */}

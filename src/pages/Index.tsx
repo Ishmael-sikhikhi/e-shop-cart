@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroBanner from "@/assets/hero-banner.jpg";
+// import heroBanner from "@/assets/hero-banner.jpg";
+
 import ProductCard from "@/components/ProductCard";
 import Footer from "@/components/Footer";
 import { products } from "@/lib/products";
@@ -13,17 +14,17 @@ const Index = () => {
       {/* Hero */}
       <section className="relative flex min-h-[85vh] items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={heroBanner} alt="Premium accessories collection" className="h-full w-full object-cover" />
+          <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?w=1200&q=80" alt="Luxurious wave hair collection" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-transparent" />
         </div>
         <div className="container relative mx-auto px-4 pt-16">
           <div className="max-w-xl space-y-6 animate-fade-in">
-            <p className="font-body text-sm font-semibold uppercase tracking-[0.2em] text-primary">New Collection 2026</p>
+            <p className="font-body text-sm font-semibold uppercase tracking-[0.2em] text-primary">New Wave Collection 2026</p>
             <h1 className="font-display text-5xl font-bold leading-tight text-foreground md:text-7xl">
-              Elevate Your <span className="text-gradient">Style</span>
+              Elevate Your <span className="text-gradient">Look</span>
             </h1>
             <p className="font-body text-lg leading-relaxed text-muted-foreground">
-              Curated premium accessories designed for those who appreciate the finer things in life.
+              Curated luxury wave hair designed for those who appreciate beautiful texture.
             </p>
             <Link
               to="/shop"
