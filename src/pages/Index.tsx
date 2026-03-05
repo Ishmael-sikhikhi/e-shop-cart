@@ -14,7 +14,7 @@ const Index = () => {
       {/* Hero */}
       <section className="relative flex min-h-[85vh] items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="https://images.unsplash.com/photo-1517457373614-b7152f800fd1?w=1200&q=80" alt="Luxurious wave hair collection" className="h-full w-full object-cover" />
+          <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80" alt="Luxurious wave hair collection" className="h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-transparent" />
         </div>
         <div className="container relative mx-auto px-4 pt-16">
